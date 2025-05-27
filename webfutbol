@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pasión por el Fútbol</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #0056b3;
+      color: white;
+      padding: 0.5rem;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pasión por el Fútbol</h1>
+    <p>Tu sitio para vivir el fútbol al máximo</p>
+  </header>
+
+  <nav>
+    <a href="#noticias">Noticias</a>
+    <a href="#equipos">Equipos</a>
+    <a href="#galeria">Galería</a>
+  </nav>
+
+  <div class="content">
+    <section id="noticias">
+      <h2>Últimas Noticias</h2>
+      <p>¡El clásico se jugará este domingo! Ambos equipos llegan en gran forma.</p>
+      <p>Se anuncia la nueva camiseta oficial de la selección nacional.</p>
+    </section>
+
+    <section id="equipos">
+      <h2>Equipos Destacados</h2>
+      <ul>
+        <li>FC Barcelona</li>
+        <li>Real Madrid</li>
+        <li>Manchester City</li>
+        <li>River Plate</li>
+        <li>Boca Juniors</li>
+      </ul>
+    </section>
+
+    <section id="galeria">
+      <h2>Galería de Fotos</h2>
+      <div class="gallery">
+        <!-- AQUÍ VA UNA FOTO -->
+        <img src="ruta/a/tu/imagen1.jpg" alt="Partido en acción">
+        
+        <!-- AQUÍ VA OTRA FOTO -->
+        <img src="ruta/a/tu/imagen2.jpg" alt="Celebración de gol">
+
+        <!-- PUEDES AGREGAR MÁS FOTOS ASÍ -->
+        <img src="ruta/a/tu/imagen3.jpg" alt="Aficionados en el estadio">
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2025 Pasión por el Fútbol. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+📌 Instrucciones para las imágenes
+Donde veas <!-- AQUÍ VA UNA FOTO -->, reemplaza la ruta ruta/a/tu/imagen1.jpg por la ubicación real del archivo en tu repositorio. Ejemplo:
+
+html
+Copiar
+Editar
+<img src="imagenes/gol-historico.jpg" alt="Gol histórico en la final">
